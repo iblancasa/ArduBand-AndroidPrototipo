@@ -29,7 +29,7 @@
     <string name="title_other_devices">Otros dispositivos</string>
     <string name="none_paired">No hay dispositivos emparejados</string>
     <string name="none_found">No encontrado</string>
-    <string name="command_hint">Insertar tempo (max 128)</string>
+    <string name="command_hint">Insertar tempo (max 127)</string>
     <string name="button_send">Enviar</string>
 
     <!-- Настройки -->
