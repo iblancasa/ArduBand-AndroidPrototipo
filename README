@@ -1,3 +1,20 @@
+ArduBand Provisional
+======================
+
+El repositorio bueno es https://github.com/iblancasa/Arduband-Android pero algo falla al utilizar Bluetooth.
+
+Esta APP se utiliza para el prototipo.
+
+Se han traducido las etiquetas y se ha cambiado la inserción de datos, de forma que hay que introducir el tempo
+(un número) y ya el sistema lo pasa a char.
+
+
+
+
+Repositorio al que se ha hecho fork:
+
+https://github.com/Sash0k/bluetooth-spp-terminal
+
 Bluetooth-spp-terminal
 ======================
 (based on Android Bluetooth chat sample)

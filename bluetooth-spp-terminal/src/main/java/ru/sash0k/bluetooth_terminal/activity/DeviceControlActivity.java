@@ -76,6 +76,7 @@ public final class DeviceControlActivity extends BaseActivity {
             logTextView.setText(savedInstanceState.getString(LOG));
 
         this.commandEditText = (EditText) findViewById(R.id.command_edittext);
+        this.commandEditText.setInputType(InputType.TYPE_CLASS_NUMBER);
         // soft-keyboard send button
         this.commandEditText.setOnEditorActionListener(new TextView.OnEditorActionListener() {
             @Override
@@ -298,6 +299,14 @@ public final class DeviceControlActivity extends BaseActivity {
     public void sendCommand(View view) {
         if (commandEditText != null) {
             String commandString = commandEditText.getText().toString();
+
+
+
+            int tiempo = Integer.parseInt(commandString);
+            commandString = new String();
+            commandString+=(char)tiempo;
+
+
             if (commandString.isEmpty()) return;
 
             // Дополнение команд в hex
